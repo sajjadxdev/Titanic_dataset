@@ -1,21 +1,27 @@
-# Oral Cancer Prediction Model 🦷📊  
+# Titanic Survival Prediction 🚢💡  
 
 ## Overview  
-This project focuses on building a **machine learning model** for predicting **oral cancer** with an accuracy of **82%**. The goal is to assist in early diagnosis by analyzing clinical data. The dataset used for training was obtained from **Kaggle** and underwent **extensive exploratory data analysis (EDA)** for insights and feature selection.
+This project aims to predict the **survival** of Titanic passengers using machine learning techniques. The dataset was obtained from **Kaggle**, and **extensive exploratory data analysis (EDA)** was performed to extract meaningful insights before training the model. The final model achieved an accuracy of **82%**.
 
 ## Dataset  
-- **Source:** [Kaggle](https://www.kaggle.com/)  
-- **Size:** 892 samples and 11 features  
-- **Features:** Clinical and demographic attributes related to oral cancer  
+- **Source:** [Kaggle - Titanic Dataset](https://www.kaggle.com/c/titanic)  
+- **Size:** 891 samples with 11 features  
+- **Features:** Passenger details such as age, gender, class, and fare price  
 
 ## Project Workflow  
-1. **Data Collection:** Dataset imported from Kaggle  
+1. **Data Collection:** Loaded dataset from Kaggle  
 2. **EDA:**  
-   - Analyzed data distribution and relationships  
-   - Visualized patterns and trends using `matplotlib` and `seaborn`  
-   - Handled missing values and performed feature selection  
-3. **Model Training:** Applied machine learning techniques to predict oral cancer.  
-4. **Evaluation:** Achieved **82% accuracy**, validated on test data.
+   - Analyzed missing values and handled data cleaning  
+   - Explored relationships between features and survival rate  
+   - Visualized data trends using `matplotlib` and `seaborn`  
+3. **Feature Engineering:**  
+   - Created new features for better predictions  
+   - Encoded categorical variables  
+   - Scaled numerical data  
+4. **Model Training:**  
+   - Applied machine learning algorithms (e.g., Logistic Regression, Random Forest, XGBoost)  
+   - Optimized hyperparameters for better performance  
+5. **Evaluation:** Achieved **82% accuracy**, validated using test data  
 
 ## Technologies Used  
 - **Python** 🐍  
@@ -26,23 +32,9 @@ This project focuses on building a **machine learning model** for predicting **o
 
 ## Results  
 - **Accuracy:** 82%  
-- Early detection potential for oral cancer using predictive analysis  
+- Identified key factors influencing survival on the Titanic  
 
 ## How to Use  
 1. Clone the repository  
    ```bash
-   git clone https://github.com/sajjadxdev/oral-cancer-prediction.git
-   ```
-2. Install dependencies  
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the notebook to explore the model and results  
-
-## Future Enhancements  
-- Improve accuracy with advanced feature engineering  
-- Integrate deep learning models for better predictions  
-- Deploy the model as a web app using **Streamlit** or **Flask**  
-
-## License  
-This project is licensed under the **MIT License**. Feel free to use and improve it!
+   git clone https://github.com/sajjadxdev/Titanic_dataset.git
